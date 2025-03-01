@@ -1,13 +1,17 @@
 {
-    "name": "cecxai-console",
-    "version": "1.0.0",
-    "description": "CECXAI Trading Dashboard",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "dependencies": {
-      "express": "^4.18.2"
-    }
+  "name": "cecxai-console",
+  "version": "1.0.0",
+  "description": "CECXAI Trading Dashboard",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "latest",
+    "react-router-dom": "^6.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
-  
+}
